@@ -179,24 +179,24 @@
                 </td>
               </tr>
 
-              <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+              <tr onmouseout="cm_stop()" onmouseover="cm_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='smerf_image'>
+                    <div class="two" id='clasp_mobile_image'>
                       <video width=100% muted autoplay loop>
                         <source src="images/clasp_mobile.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='images/self_hosting_architecture_v3.png' width=100%>
+                    <img src='images/clasp_mobile.png' width=100%>
                   </div>
                   <script type="text/javascript">
-                    function smerf_start() {
-                      document.getElementById('smerf_image').style.opacity = "1";
+                    function cm_start() {
+                      document.getElementById('clasp_mobile_image').style.opacity = "1";
                     }
 
-                    function smerf_stop() {
-                      document.getElementById('smerf_image').style.opacity = "0";
+                    function cm_stop() {
+                      document.getElementById('clasp_mobile_image').style.opacity = "0";
                     }
                     smerf_stop()
                   </script>
